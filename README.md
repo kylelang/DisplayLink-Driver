@@ -1,8 +1,22 @@
+# Disclaimer
+
+Neither any of the following information nor the contents of this repository are
+intended for use by third parties. I'm putting this stuff here to document the
+process of getting the DisplayLink driver installed on my machine and
+(hopefully) save future Kyle some pain and suffering.
+
+Of course, you are perfectly free to use this stuff, if you want. You do so at
+your own risk, though.
+
 # Install Notes
 
-Date: 2023-03-31
-Machine: ThinkPad T14s Gen3 AMD
-OS: Debian 12 (Bookworm, Testing)
+**Date:** 2023-03-31
+
+**Machine:** ThinkPad T14s Gen3 AMD
+
+**OS:** Debian 12 (Bookworm, Testing)
+
+## Situation/Problem Statement
 
 - I could not install via the automated installing script from displaylink-debian
    - The autoinstall of EVDI failed
